@@ -1,0 +1,79 @@
+{
+  "slug": "concept-garage",
+  "kind": "garage",
+  "name": "Concept Garage",
+  "name_ar": "كراج كونسبت",
+  "category_en": "AUTO REPAIR & BODYWORK",
+  "category_ar": "صيانة السيارات وأعمال الهيكل",
+  "location": "Street 15, Industrial Area, Doha, Qatar",
+  "location_ar": "شارع 15، المنطقة الصناعية، الدوحة، قطر",
+  "phone": "+974 7726 4552",
+  "map_url": "https://www.google.com/maps/search/?api=1&query=Concept+Garage+Street+15+Doha+Qatar",
+  "eyebrow_en": "AUTO CARE · INDUSTRIAL AREA",
+  "eyebrow_ar": "العناية بالسيارات · المنطقة الصناعية",
+  "hero_title_en": "Keep moving.",
+  "hero_title_ar": "واصل طريقك.",
+  "hero_accent_en": "Drive with confidence.",
+  "hero_accent_ar": "بثقة.",
+  "hero_text_en": "An independent redesign concept for Concept Garage, a vehicle repair workshop in Doha's Industrial Area. Explore listed repair categories and reach the workshop directly.",
+  "hero_text_ar": "تصور مستقل لموقع كراج كونسبت لصيانة السيارات بالمنطقة الصناعية في الدوحة. اطلع على فئات الإصلاح المدرجة وتواصل مع الورشة مباشرة.",
+  "hero_image": "https://images.pexels.com/photos/8986040/pexels-photo-8986040.jpeg?auto=compress&cs=tinysrgb&w=1400",
+  "feature_image": "https://images.pexels.com/photos/30250199/pexels-photo-30250199.jpeg?auto=compress&cs=tinysrgb&w=1400",
+  "feature_title_en": "Start with a clear repair enquiry.",
+  "feature_title_ar": "ابدأ باستفسار صيانة واضح.",
+  "feature_text_en": "Explain the issue by phone, confirm the service and arrange an inspection if the workshop agrees. No repair booking or price is implied by this preview.",
+  "feature_text_ar": "اشرح المشكلة هاتفياً وتأكد من الخدمة ورتب الفحص بعد موافقة الورشة. هذا التصور لا يقدم حجزاً أو سعراً مؤكداً.",
+  "about_en": "Concept Garage is publicly listed as an automotive repair business in Doha's Industrial Area. This independent design proposal presents general repair categories from public directories; individual services require workshop confirmation.",
+  "about_ar": "كراج كونسبت مدرج كورشة لصيانة السيارات في المنطقة الصناعية بالدوحة. يعرض هذا التصور المستقل فئات خدمات عامة وفق الأدلة العامة، وتخضع الخدمات الفردية لتأكيد الورشة.",
+  "special_title_en": "Know what happens before a visit.",
+  "special_title_ar": "تعرف على الخطوات قبل الزيارة.",
+  "special_text_en": "Suggested process only: call the workshop, describe the vehicle issue, ask about an assessment and visit if the team agrees. No guaranteed turnaround, pricing or appointment is represented.",
+  "special_text_ar": "خطوات مقترحة فقط: اتصل بالورشة واشرح مشكلة السيارة واستفسر عن الفحص ثم قم بالزيارة بعد الموافقة. لا توجد أسعار أو مواعيد أو ضمانات مؤكدة.",
+  "theme_primary": "#172A38",
+  "theme_accent": "#ED873B",
+  "source_url": "https://localqatar.net/en/business/kraj-kunsbt-industrial-area",
+  "services": [
+    {
+      "title_en": "Mechanical repair",
+      "title_ar": "الصيانة الميكانيكية",
+      "detail_en": "Enquire about general mechanical problems and diagnosis.",
+      "detail_ar": "استفسر عن الأعطال الميكانيكية والفحص.",
+      "image": "https://images.pexels.com/photos/8985456/pexels-photo-8985456.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "title_en": "Bodywork",
+      "title_ar": "إصلاح الهيكل",
+      "detail_en": "Discuss bodywork and dent repair requirements.",
+      "detail_ar": "ناقش متطلبات السمكرة وإصلاح الصدمات.",
+      "image": "https://images.pexels.com/photos/6870313/pexels-photo-6870313.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "title_en": "Car painting",
+      "title_ar": "دهان السيارات",
+      "detail_en": "Ask the workshop about vehicle paint and refinishing.",
+      "detail_ar": "استفسر عن دهان السيارة وتشطيبها.",
+      "image": "https://images.pexels.com/photos/30250199/pexels-photo-30250199.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "title_en": "General workshop enquiry",
+      "title_ar": "استفسار عن خدمات الورشة",
+      "detail_en": "Confirm any additional vehicle services by phone.",
+      "detail_ar": "تأكد هاتفياً من أي خدمات إضافية.",
+      "image": "https://images.pexels.com/photos/8985664/pexels-photo-8985664.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "https://images.pexels.com/photos/8985456/pexels-photo-8985456.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "image": "https://images.pexels.com/photos/6870313/pexels-photo-6870313.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "image": "https://images.pexels.com/photos/30250199/pexels-photo-30250199.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "image": "https://images.pexels.com/photos/8985664/pexels-photo-8985664.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    }
+  ]
+}

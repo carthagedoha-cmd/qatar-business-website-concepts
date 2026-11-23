@@ -1,0 +1,76 @@
+{
+  "slug": "panda-food-centre",
+  "kind": "food",
+  "name": "Panda Food Centre",
+  "name_ar": "باندا فود سنتر",
+  "category_en": "NEIGHBOURHOOD SUPERMARKET",
+  "category_ar": "سوبرماركت الحي",
+  "location": "Al Mansoura Street, Doha, Qatar",
+  "location_ar": "شارع المنصورة، الدوحة، قطر",
+  "phone": "+974 5141 9955",
+  "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Food+Centre+Al+Mansoura+Doha+Qatar",
+  "eyebrow_en": "EVERYDAY ESSENTIALS, CLOSE TO YOU",
+  "eyebrow_ar": "كل احتياجاتك اليومية",
+  "hero_title_en": "The everyday shop.",
+  "hero_title_ar": "تسوق يومي.",
+  "hero_accent_en": "Around your corner.",
+  "hero_accent_ar": "قريب منك.",
+  "hero_text_en": "A fresh look at neighbourhood grocery shopping on Al Mansoura Street, Doha. Discover proposed departments, find the store and call directly.",
+  "hero_text_ar": "نظرة جديدة للتسوق اليومي في شارع المنصورة بالدوحة. استكشف الأقسام المقترحة واعثر على المتجر وتواصل مباشرة.",
+  "hero_image": "https://images.pexels.com/photos/2255935/pexels-photo-2255935.jpeg?auto=compress&cs=tinysrgb&w=1400",
+  "feature_image": "https://images.pexels.com/photos/1005638/pexels-photo-1005638.jpeg?auto=compress&cs=tinysrgb&w=1400",
+  "feature_title_en": "Good shopping starts with convenience.",
+  "feature_title_ar": "تسوق مريح يبدأ من القرب.",
+  "feature_text_en": "Browse categories, find directions and speak to the store before travelling. Product selection and prices require confirmation from the shop.",
+  "feature_text_ar": "تصفح الأقسام واعثر على الاتجاهات وتواصل قبل الزيارة. تتطلب المنتجات والأسعار تأكيداً من المتجر.",
+  "about_en": "Panda Food Centre is publicly listed as a supermarket in the Al Mansoura area of Doha. This independent concept proposes a straightforward online introduction with clear location and contact details.",
+  "about_ar": "باندا فود سنتر مدرج كسوبرماركت في منطقة المنصورة بالدوحة. يقدم هذا التصور المستقل تعريفاً واضحاً بالموقع ووسائل الاتصال.",
+  "special_title_en": "A place for weekly offers.",
+  "special_title_ar": "مساحة للعروض الأسبوعية.",
+  "special_text_en": "No products, promotional prices or dates have been supplied or confirmed by the store. Promotions can be added after the owner approves them.",
+  "special_text_ar": "لم يقدم المتجر منتجات أو أسعاراً أو تواريخ عروض مؤكدة. يمكن إضافة العروض بعد اعتماد المالك.",
+  "theme_primary": "#1B5B43",
+  "theme_accent": "#D7E4AF",
+  "source_url": "https://companiesinqatar.com/businesses/panda-food-centre/",
+  "services": [
+    {
+      "title_en": "Fresh produce",
+      "title_ar": "الفواكه والخضروات",
+      "detail_en": "A proposed section for produce and daily cooking ingredients.",
+      "detail_ar": "قسم مقترح للفواكه والخضروات ومكونات الطبخ اليومي.",
+      "image": "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "title_en": "Pantry essentials",
+      "title_ar": "المواد الغذائية",
+      "detail_en": "A proposed area for household grocery staples.",
+      "detail_ar": "قسم مقترح للمواد الغذائية الأساسية.",
+      "image": "https://images.pexels.com/photos/1435735/pexels-photo-1435735.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "title_en": "Bread & bakery",
+      "title_ar": "الخبز والمخبوزات",
+      "detail_en": "A place to showcase breads and baked goods if stocked.",
+      "detail_ar": "مساحة لعرض الخبز والمخبوزات في حال توفرها.",
+      "image": "https://images.pexels.com/photos/4110256/pexels-photo-4110256.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "title_en": "Dairy & chilled",
+      "title_ar": "الألبان والمبردات",
+      "detail_en": "Suggested chilled food category, subject to availability.",
+      "detail_ar": "قسم مقترح للمواد المبردة حسب التوفر.",
+      "image": "https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "image": "https://images.pexels.com/photos/4110256/pexels-photo-4110256.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "image": "https://images.pexels.com/photos/1435735/pexels-photo-1435735.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    }
+  ]
+}
