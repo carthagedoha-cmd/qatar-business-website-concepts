@@ -254,3 +254,9 @@ body[data-kind="garage"] .hero-image img{filter:brightness(.59) grayscale(.35)!i
 .hero-stamp{transform:none}
 .ticker-track{animation:none;transform:none}
 }
+/* Finishing passes: ensure contrast and stable cinematic image treatment */
+body[data-kind="garage"] .band{background:#ed873b;color:#162028}
+body[data-kind="garage"] .band-row b{color:#162028}
+body[data-kind="salon"] .hero-image img,body[data-kind="garage"] .hero-image img{animation:cinematic-establish 1.65s var(--ease-out) both}
+@keyframes cinematic-establish{from{opacity:.75;transform:scale(1.12)}to{opacity:1;transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){body[data-kind="salon"] .hero-image img,body[data-kind="garage"] .hero-image img{animation:none!important}}
