@@ -46,3 +46,7 @@ All prices, stock, business details, promotions, service scopes, photographs and
 - `admin/index.html` — handover policy information, NOT an active login page
 
 Hosted for public demonstration through GitHub Pages, source `main` branch, path `/`. The sites are static and do not collect payment information or send form submissions. The seller may continue to use these previews for sales until each business agrees on the final handover.
+
+
+## Apple-inspired visual standard (23 November 2026)
+All three live concept sites use a shared premium design language informed by Apple's current public website: system UI typography (no redistributed Apple fonts), generous neutral surfaces, 16:9 cinematic imagery on desktop and portrait crops on mobile, minimal rounded blue CTAs, restrained scroll reveals, and dark/light full-width sections. Business identity and text remain independent, not Apple-affiliated. Never use Apple's name, logo, photography, fonts or site code in client sites. The JavaScript renderer supports optional owner-licensed `hero_video` and `feature_video` MP4 URLs per individual JSON file with muted inline playback, a pause button and reduced-motion/data-saver fallback. Actual business video assets are not provided in these public previews and must be sourced/approved for each business before being added. Buyer-only administrative rights and future standalone-repository handover are unchanged.
