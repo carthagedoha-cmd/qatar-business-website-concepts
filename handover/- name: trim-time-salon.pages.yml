@@ -1,0 +1,133 @@
+media:
+  input: media
+  output: /media
+  rename: safe
+  categories: [image]
+content:
+  - name: trim-time-salon
+    label: Trim Time Salon
+    type: file
+    path: content/trim-time-salon.json
+    format: json
+    fields:
+      - name: name
+        label: "Business name"
+        type: string
+      - name: name_ar
+        label: "Business name (Arabic)"
+        type: string
+      - name: category_en
+        label: "Category (English)"
+        type: string
+      - name: category_ar
+        label: "Category (Arabic)"
+        type: string
+      - name: location
+        label: "Location (English)"
+        type: string
+      - name: location_ar
+        label: "Location (Arabic)"
+        type: string
+      - name: phone
+        label: "Phone number"
+        type: string
+      - name: map_url
+        label: "Google Maps link"
+        type: string
+      - name: eyebrow_en
+        label: "Hero small heading (English)"
+        type: string
+      - name: eyebrow_ar
+        label: "Hero small heading (Arabic)"
+        type: string
+      - name: hero_title_en
+        label: "Hero main heading (English)"
+        type: string
+      - name: hero_title_ar
+        label: "Hero main heading (Arabic)"
+        type: string
+      - name: hero_accent_en
+        label: "Hero accent heading (English)"
+        type: string
+      - name: hero_accent_ar
+        label: "Hero accent heading (Arabic)"
+        type: string
+      - name: hero_text_en
+        label: "Hero introduction (English)"
+        type: text
+      - name: hero_text_ar
+        label: "Hero introduction (Arabic)"
+        type: text
+      - name: hero_image
+        label: "Hero main photograph"
+        type: image
+      - name: feature_image
+        label: "Secondary photograph"
+        type: image
+      - name: feature_title_en
+        label: "Feature heading (English)"
+        type: string
+      - name: feature_title_ar
+        label: "Feature heading (Arabic)"
+        type: string
+      - name: feature_text_en
+        label: "Feature description (English)"
+        type: text
+      - name: feature_text_ar
+        label: "Feature description (Arabic)"
+        type: text
+      - name: about_en
+        label: "About (English)"
+        type: text
+      - name: about_ar
+        label: "About (Arabic)"
+        type: text
+      - name: special_title_en
+        label: "Offers/gallery/process heading (English)"
+        type: string
+      - name: special_title_ar
+        label: "Offers/gallery/process heading (Arabic)"
+        type: string
+      - name: special_text_en
+        label: "Offers/gallery/process note (English)"
+        type: text
+      - name: special_text_ar
+        label: "Offers/gallery/process note (Arabic)"
+        type: text
+      - name: theme_primary
+        label: "Brand colour hex (#RRGGBB)"
+        type: string
+      - name: theme_accent
+        label: "Accent colour hex (#RRGGBB)"
+        type: string
+      - name: source_url
+        label: "Original public listing source"
+        type: string
+      - name: services
+        label: "Services / Product categories"
+        type: object
+        list: true
+        fields:
+          - name: title_en
+            label: "Name English"
+            type: string
+          - name: title_ar
+            label: "Name Arabic"
+            type: string
+          - name: detail_en
+            label: "Description English"
+            type: text
+          - name: detail_ar
+            label: "Description Arabic"
+            type: text
+          - name: image
+            label: "Photo"
+            type: image
+      - name: gallery
+        label: "Gallery pictures"
+        type: object
+        list: true
+        fields:
+          - name: image
+            label: Gallery image
+            type: image

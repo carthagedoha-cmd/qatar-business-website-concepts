@@ -1,36 +1,48 @@
 # Qatar Business Website Concepts
 
-Independent, unsolicited concept websites for three Qatar businesses. Not official company sites. No use of the iVoices repository.
+Three independent, unsolicited website concepts for Qatar local businesses. This is a separate repository from iVoices. These are NOT the businesses' official sites.
 
-## Live preview URLs (once GitHub Pages deployment completes)
-- https://carthagedoha-cmd.github.io/qatar-business-website-concepts/panda-food-centre/
-- https://carthagedoha-cmd.github.io/qatar-business-website-concepts/trim-time-salon/
-- https://carthagedoha-cmd.github.io/qatar-business-website-concepts/concept-garage/
+## Live GitHub Pages links
+- Panda Food Centre — https://carthagedoha-cmd.github.io/qatar-business-website-concepts/panda-food-centre/
+- Trim Time Salon — https://carthagedoha-cmd.github.io/qatar-business-website-concepts/trim-time-salon/
+- Concept Garage — https://carthagedoha-cmd.github.io/qatar-business-website-concepts/concept-garage/
 
-Each business has five standalone pages: Home, Services, More (Offers / Lookbook / Process), About, Contact.
+Each has five pages: Home, Services, More (Offers / Lookbook / Process), About, Contact. English/Arabic switching is built in. Images are illustrative examples rather than actual store interiors, employees or completed projects.
 
-## Secure admin editing — no programming
-1. Open https://app.pagescms.org/ and **Sign in with GitHub**.
-2. Install the Pages CMS GitHub App, selecting ONLY repository `carthagedoha-cmd/qatar-business-website-concepts`.
-3. In Pages CMS, select this repository.
-4. Choose one of the three business entries and change text in English/Arabic, photos, service descriptions, opening details, logo-style branding colours, telephone, or Google Maps link.
-5. **Save / Commit**. GitHub Pages republishes changed content automatically from the main branch; public-site updates may take a few minutes. The CMS's save action commits to GitHub. The public demo does not contain a username/password form.
-6. Your admin shortcut is `https://carthagedoha-cmd.github.io/qatar-business-website-concepts/admin/`.
+## Design system (2026 update)
+- Panda: fresh editorial retail, oversized serif typography, vibrant produce photography, asymmetric category cards, warm natural colour, animated moving keywords.
+- Trim Time: cinematic dark barber aesthetic, muted bronze and warm tones, large editorial headings, image focus, restrained transitions.
+- Concept Garage: industrial charcoal and orange, compressed display typography, dynamic workshop imagery, geometric CTAs and technical details.
+- Interactions: composited entrance animations, scroll-reveal, image hover scaling, progress indicator and navigation microinteractions. All respect reduced-motion settings; no autoplay video, WebGL or paid animation libraries.
+- Static site and contact links remain the priority; no fabricated operating hours, prices, promotions or online booking.
 
-Important: Pages CMS needs the account owner to authorize the app once. This cannot be done via a generated password. Store only public business data in this public repository.
+## Buyer-only administration — sale and handover policy
+**There is NO buyer sign-in on any preview site.** The demo repository intentionally has no live Pages CMS configuration. Buyers must NOT be invited as collaborators to this shared repository: it contains three independent prospect websites.
 
-Major design layout changes may require updating `assets/site.js` or `assets/style.css`; these are shared across all concepts, so validate the three sites before publishing structural changes.
+Once a specific buyer accepts the QAR 5,000 ownership offer:
+1. Confirm exactly which website has been purchased and agree payment, scope, delivery and support terms.
+2. Package ONLY the purchased site's folder, its corresponding JSON content file, the shared static site assets, and the site-specific CMS configuration template. Do not copy other clients' content.
+3. Create a new **individual** repository under the buyer's own GitHub account, or explicitly transfer the newly isolated repository to the buyer. The buyer must approve or accept control of their own account.
+4. Configure Pages CMS using ONLY `.pages.yml` for that buyer, derived from the corresponding file in `handover/<site>.pages.yml`. The buyer authorizes Pages CMS GitHub App for **that repository only**; the preview site needs no CMS login.
+5. Buyer signs in to https://app.pagescms.org/ using their own GitHub account and can edit text, photographs, services, offers and business information. Commits trigger publishing when the hosting source has been configured.
+6. Transfer/verify buyer-only repository ownership, and remove seller access after acceptance. The seller does not keep an admin account or shared password.
+7. Configure hosting and a buyer-controlled domain separately according to the agreed contract. GitHub Pages may be appropriate as a demo; confirm production hosting and terms for a commercial site.
 
-All photography currently uses illustrative third-party stock image URLs, not owner photos. Replace with store-approved images once available. All displayed business data, products, offers and services require owner verification before official use. No fake offers or confirmed booking system.
+No step requires the seller to sign into Pages CMS now. No buyer can receive exclusive administrative rights while their site remains in the current shared demo repository.
 
-Price to offer each business for ownership: **QAR 5,000** one time. Hosting, custom domain and ongoing maintenance are outside that fee unless separately agreed. Contact for owners: website.business.qatar@gmail.com / +974 3332 4228.
+**For major redesigns:** the editor manages content, images and colours; changes to structural templates require modifying shared site code (or its isolated copy after sale).
 
-## Hosting
-GitHub Pages, source branch `main`, source `/`. This repo contains only static demonstration websites. They do not collect payments or visitor information.
+## Commercial offer
+One-time website ownership price: **QAR 5,000 per business**. Domain, hosting and future maintenance are separate unless expressly agreed. Contact: website.business.qatar@gmail.com · +974 3332 4228.
 
-## Individual files
-- `content/*.json`: editable business content and images, managed by Pages CMS.
-- `.pages.yml`: CMS fields and media storage.
-- `assets/site.js`: shared front-end renderer.
-- `assets/style.css`: responsive styles.
-- `*/index.html` and companion pages: business page entrypoints.
+All prices, stock, business details, promotions, service scopes, photographs and hours must be approved by the business before official launch. The preview is not affiliated with or endorsed by the listed businesses. Do not use photos of staff, inventory or property without permission.
+
+## Technical layout
+- `content/*.json` — structured editable content for preview sites
+- `assets/site.js` — shared client renderer, keyboard menu, language switching and motion enhancements
+- `assets/style.css` — responsive themes and animations
+- `<business>/index.html`, `services.html`, `features.html`, `about.html`, `contact.html` — static entrypoints
+- `handover/<business>.pages.yml` — buyer-specific Pages CMS configuration templates; not enabled on previews
+- `admin/index.html` — handover policy information, NOT an active login page
+
+Hosted for public demonstration through GitHub Pages, source `main` branch, path `/`. The sites are static and do not collect payment information or send form submissions. The seller may continue to use these previews for sales until each business agrees on the final handover.
