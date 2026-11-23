@@ -75,5 +75,7 @@
     {
       "image": "https://images.pexels.com/photos/8985664/pexels-photo-8985664.jpeg?auto=compress&cs=tinysrgb&w=1400"
     }
-  ]
+  ],
+  "hero_video": "https://videos.pexels.com/video-files/9498286/9498286-hd_1920_1080_25fps.mp4",
+  "hero_video_source": "https://www.pexels.com/video/cars-at-an-auto-repair-shop-9498286/"
 }
